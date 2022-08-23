@@ -14,12 +14,12 @@ int calculate(int);
 
 int main() {
 
-    bool ctrl = true;
+    bool check = true;
     int ability[6];
 
-    while (ctrl) {
+    while (check) {
         dice(ability);
-        ctrl = check_dice(ability);
+        check = check_dice(ability);
     }
 
     for (int i = 0;i < 6;i++) {
