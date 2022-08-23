@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07A763F328B4CB1E004D9463 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A763F228B4CB1E004D9463 /* main.cpp */; };
+		07A763FF28B4CB9C004D9463 /* choose.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A763FD28B4CB9C004D9463 /* choose.cpp */; };
+		07A7640228B4CBB2004D9463 /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A7640028B4CBB2004D9463 /* character.cpp */; };
+		07A7640528B4CC0A004D9463 /* dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07A7640328B4CC0A004D9463 /* dice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		07A763EF28B4CB1E004D9463 /* D&D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "D&D"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07A763F228B4CB1E004D9463 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		07A763FD28B4CB9C004D9463 /* choose.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = choose.cpp; sourceTree = "<group>"; };
+		07A7640028B4CBB2004D9463 /* character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		07A7640328B4CC0A004D9463 /* dice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dice.cpp; sourceTree = "<group>"; };
+		07A7640728B4CDE0004D9463 /* dice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dice.h; sourceTree = "<group>"; };
+		07A7640828B4CE02004D9463 /* character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = character.h; sourceTree = "<group>"; };
+		07A7640928B4CE0C004D9463 /* choose.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = choose.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		07A763F128B4CB1E004D9463 /* D&D */ = {
 			isa = PBXGroup;
 			children = (
+				07A7640728B4CDE0004D9463 /* dice.h */,
+				07A7640828B4CE02004D9463 /* character.h */,
+				07A7640928B4CE0C004D9463 /* choose.h */,
 				07A763F228B4CB1E004D9463 /* main.cpp */,
+				07A7640028B4CBB2004D9463 /* character.cpp */,
+				07A763FD28B4CB9C004D9463 /* choose.cpp */,
+				07A7640328B4CC0A004D9463 /* dice.cpp */,
 			);
 			path = "D&D";
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07A763FF28B4CB9C004D9463 /* choose.cpp in Sources */,
 				07A763F328B4CB1E004D9463 /* main.cpp in Sources */,
+				07A7640528B4CC0A004D9463 /* dice.cpp in Sources */,
+				07A7640228B4CBB2004D9463 /* character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
